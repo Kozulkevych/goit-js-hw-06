@@ -20,7 +20,7 @@ const createBoxes = amount => {
 };
 
 btnCreateRef.addEventListener('click', () => {
-	const boxesToAdd = createBoxes(inputRef.value)
+	let boxesToAdd = createBoxes(inputRef.value)
 	boxesRef.append(...boxesToAdd)
 });
 
