@@ -9,7 +9,7 @@ const boxesRef = document.querySelector('#boxes');
 
 const createBoxes = amount => {
 	const elementsToAdd = [];
-	for (let i = 0; i <= amount; i += 1) {
+	for (let i = 1; i <= amount; i += 1) {
 		const div = document.createElement('div')
 		div.style.height = `${30 + 10 * i}px`
 		div.style.width = `${30 + 10 * i}px`
@@ -34,7 +34,7 @@ btnDestroyRef.addEventListener('click', () => {
 // 	amount = inputRef.value;
 // 	let size = 30;
 // 	let markup = "";
-// 	for (let i = 0; i <= amount; i += 1) {
+// 	for (let i = 1; i <= amount; i += 1) {
 // 		markup += `<div style = "height:${size}px; width:${size}px; background: ${getRandomHexColor()}"><div>`;
 // 		size += 10;
 // 	}
