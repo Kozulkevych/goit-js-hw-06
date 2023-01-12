@@ -30,12 +30,13 @@ btnDestroyRef.addEventListener('click', () => {
 });
 
 
+
 // const createBoxes = (amount) => {
 // 	amount = inputRef.value;
 // 	let size = 30;
 // 	let markup = "";
 // 	for (let i = 1; i <= amount; i += 1) {
-// 		markup += `<div style = "height:${size}px; width:${size}px; background: ${getRandomHexColor()}"><div>`;
+// 		markup += `<div style= "width:${size}px; height:${size}px; background:${getRandomHexColor()}"></div>`;
 // 		size += 10;
 // 	}
 // 	boxesRef.insertAdjacentHTML("beforeend", markup);
